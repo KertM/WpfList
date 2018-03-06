@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.26430.16
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfList", "WpfList\WpfList.csproj", "{F6AEF68A-C4CD-408F-809E-BC9188F48CF4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ValiNimed", "ValiNimed\ValiNimed.csproj", "{931453F1-05FC-4AB7-BFEF-2EC1CBABE29E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{F6AEF68A-C4CD-408F-809E-BC9188F48CF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F6AEF68A-C4CD-408F-809E-BC9188F48CF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F6AEF68A-C4CD-408F-809E-BC9188F48CF4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{931453F1-05FC-4AB7-BFEF-2EC1CBABE29E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{931453F1-05FC-4AB7-BFEF-2EC1CBABE29E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{931453F1-05FC-4AB7-BFEF-2EC1CBABE29E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{931453F1-05FC-4AB7-BFEF-2EC1CBABE29E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
