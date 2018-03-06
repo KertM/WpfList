@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="350" Width="525">
     <Grid Margin="10">
-        <ListBox Name="TodoListBox">
+        <ListBox Name="TodoListBox" Margin="0,0,169,0">
             <ListBox.ItemTemplate>
                 <DataTemplate>
                     <StackPanel Orientation="Horizontal">
@@ -24,6 +24,13 @@
                     </StackPanel>
                 </DataTemplate>
             </ListBox.ItemTemplate>
+            <Grid Height="161" Width="144"/>
         </ListBox>
+        <TextBlock HorizontalAlignment="Left" Margin="333,10,-163,0" TextWrapping="Wrap" Text="Listbox selection" VerticalAlignment="Top" Height="22" Width="327"/>
+        <Button Name="btnShowselected" Content="Show selected" HorizontalAlignment="Left" Margin="333,32,0,0" VerticalAlignment="Top" Width="154" Height="20"/>
+        <Button Name="btnSelectedLast" Content="Selected Last" HorizontalAlignment="Left" Margin="333,57,0,0" VerticalAlignment="Top" Width="154" Height="21"/>
+        <Button Name="btnSelectnext" Content="Select next" HorizontalAlignment="Left" Margin="333,83,0,0" VerticalAlignment="Top" Width="154" Height="20"/>
+        <Button Name="btnSelectCSharp" Content="Select C#" HorizontalAlignment="Left" Margin="333,109,0,0" VerticalAlignment="Top" Width="154" Height="20"/>
+        <Button Name="btnSelectall" Content="Select all" HorizontalAlignment="Left" Margin="333,134,0,0" VerticalAlignment="Top" Width="154" Height="21"/>
     </Grid>
 </Window>
